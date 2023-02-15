@@ -2,12 +2,15 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
 import Box from "./components/Box";
+import uno from "./assets/UNO.png"
+import dos from "./assets/DOS.png"
+import tres from "./assets/TRES.png"
 
 function App() {
   const [count, setCount] = useState(0);
-  let uno = "src/assets/UNO.png";
-  let dos = "src/assets/DOS.png";
-  let tres = "src/assets/TRES.png";
+  //let uno = "src/assets/UNO.png";
+  //let dos = "src/assets/DOS.png";
+  //let tres = "src/assets/TRES.png";
 
   return (
     <div className="App">
