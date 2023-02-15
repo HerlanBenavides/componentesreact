@@ -1,0 +1,65 @@
+body{
+  background: #0d456e;
+}
+img {
+  width: 100%;
+  border-radius: 12%;
+}
+.App{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto auto auto;
+  margin-top: 10%;
+  background: #e2e2e2;
+  height: 430PX;
+  border-radius: 10%;
+}
+.box{
+  background: #fffaf2;
+  width: 80%;
+  height: 85%;
+  text-align: left;
+  margin: 0 auto;  
+  margin-top: 10%;
+  border-radius: 10%;
+  box-shadow: -1px 3px 9px 15px rgba(0,0,0,0.14);
+}
+.box:hover{
+  z-index: 100;
+  animation: scale 0.4s linear;
+  animation-fill-mode: forwards;
+}
+@keyframes scaledown {
+  0%{
+    transform: scale(1.1);
+  }
+  100%{
+    transform: scale(1.0);
+  }
+  
+}
+@keyframes scale {
+  0%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(1.1);
+    box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.3);
+  }
+  
+}
+.cuadroDescripcion{
+  margin-left: 4%;
+}
+.model{
+  background:radial-gradient(circle at 104.17% 95.45%, #0098ff 0, #0095ff 5%, 
+  #0092ff 10%, #008dff 15%, #0087ff 20%, #0080ff 25%, #0077ff 30%, 
+  #006cff 35%, #665fff 40%, #9450ff 45%, #b53cf2 50%, #ce1fdf 55%, 
+  #e200cb 60%, #f100b6 65%, #fd00a0 70%, #ff0089 75%, #ff0073 80%, 
+  #ff005d 85%, #ff0047 90%, #ff0032 95%, #fb0019 100%);
+  width: 45%;
+  color: #fffaf2 ;
+}
+.price{
+  font-weight: bold;
+}
